@@ -16,11 +16,23 @@ public class Broaden {
 	
 	public Broaden() {		
 		running = true;
-		startUp();
-		game();
+		keyCode();
 	}
 	
-	private void game() {
+	private void keyCode() {
+		String i;
+		System.out.println(" Do You Have A Key Code From A Previous Game? If Not, Just Hit Enter.");
+		i = scan.nextLine();
+		if (i.equals("k3g55h")) {
+			
+		} else if ("q6p77t") {
+			
+		} else {
+			startUp();
+		}
+	}
+	
+	private void game1() {
 		String i;
 		System.out.println("");
 		System.out.println(" You wake up, being tossed and turned by someone. Your vison is blurry, and you try to focus it. When your sight is clear, you see an old man shaking you.");
@@ -94,8 +106,6 @@ public class Broaden {
 		System.out.println("===========================================");
 		System.out.println("================= BROADEN =================");
 		System.out.println("===========================================");
-		System.out.println("");
-		System.out.println(" Do You Have A Key Code From A Previous Game? If Not, Just Hit Enter.");
 		System.out.println("");
 		System.out.println(" Is There Anything You Would Like To Know Before We Begin?");
 		System.out.println("      What Is Broaden?");
@@ -255,6 +265,7 @@ public class Broaden {
 		i = scan.nextLine();
 		System.out.println("");
 		System.out.println("");
+		game1();
 	}
 	
 	public static void main(String args[]) {
