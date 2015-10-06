@@ -21,12 +21,19 @@ public class Broaden {
 	
 	private void keyCode() {
 		String i;
+		String u;
 		System.out.println(" Do You Have A Key Code From A Previous Game? If Not, Just Hit Enter.");
 		i = scan.nextLine();
 		if (i.equals("k3g55h")) {
 			
 		} else if ("q6p77t") {
 			
+		} else if ("dev") {               // Dev Mode, Delete After.
+			System.out.println("Where Would You Like To Go?");
+			u = scan.nextLine();
+			if (u == "startup") {
+				startUp();
+			}
 		} else {
 			startUp();
 		}
@@ -49,11 +56,11 @@ public class Broaden {
 		i = scan.nextLine();
 		for (int g = 0; g < 3; g++) {
 			if (i.equals("1")) {
-
+                                                              // Unused
 			} else if (i.equals("2")) {
-
+                                                              // Unused
 			} else if (i.equals("3")) {
-
+                                                              // Unused
 			} else {
 				System.out.println("");
 				System.out.println("Please Choose A Number From Your Options:");
